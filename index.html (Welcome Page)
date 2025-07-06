@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Amarilla Management</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to Amarilla Management</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="refund.html">Refund</a>
+      <a href="payment.html">Payment</a>
+    </nav>
+  </header>
+  <main>
+    <p>Amarilla Management offers reliable services for your business needs. Explore our policies and secure payment options.</p>
+  </main>
+  <footer>
+    &copy; 2025 Amarilla Management
+  </footer>
+</body>
+</html>
