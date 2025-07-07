@@ -1,31 +1,73 @@
-/* styles.css */
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  line-height: 1.6;
-  background-color: #f9f9f9;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amarilla Management</title>
+  <style>
+    :root {
+      --primary-blue: #0044cc;
+      --light-blue: #e6f0ff;
+    }
 
-header, footer {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 1rem 0;
-}
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: white;
+      color: #333;
+    }
 
-nav a {
-  margin: 0 15px;
-  color: white;
-  text-decoration: none;
-}
+    header {
+      background-color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #ddd;
+    }
 
-main {
-  padding: 2rem;
-  max-width: 800px;
-  margin: auto;
-}
+    nav a {
+      color: var(--primary-blue);
+      text-decoration: none;
+      margin-left: 1.5rem;
+      font-weight: 500;
+    }
 
-h1 {
-  color: #333;
-}
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      padding: 2rem;
+    }
+
+    footer {
+      background-color: var(--primary-blue);
+      color: white;
+      text-align: center;
+      padding: 1.5rem 1rem;
+      margin-top: 4rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Amarilla Management</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Welcome</h2>
+    <p>This is the homepage of Amarilla Management. Update this section with your content.</p>
+  </main>
+
+  <footer>
+    &copy; 2025 Amarilla Management. All rights reserved.
+  </footer>
+</body>
+</html>
