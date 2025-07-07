@@ -1,25 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Amarilla Management</title>
-  <link rel="stylesheet" href="styles.css">
+  <style>
+    :root {
+      --primary-blue: #0044cc;
+      --light-blue: #e6f0ff;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: white;
+      color: #333;
+    }
+
+    header {
+      background-color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #ddd;
+    }
+
+    nav a {
+      color: var(--primary-blue);
+      text-decoration: none;
+      margin-left: 1.5rem;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      padding: 2rem;
+    }
+
+    footer {
+      background-color: var(--primary-blue);
+      color: white;
+      text-align: center;
+      padding: 1.5rem 1rem;
+      margin-top: 4rem;
+    }
+  </style>
 </head>
 <body>
   <header>
-    <h1>Welcome to Amarilla Management</h1>
+    <h1>Amarilla Management</h1>
     <nav>
-      <a href="index.html">Home</a>
-      <a href="privacy.html">Privacy</a>
-      <a href="refund.html">Refund</a>
-      <a href="payment.html">Payment</a>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
     </nav>
   </header>
+
   <main>
-    <p>Amarilla Management offers reliable services for your business needs. Explore our policies and secure payment options.</p>
+    <h2>Welcome</h2>
+    <p>This is the homepage of Amarilla Management. Update this section with your content.</p>
   </main>
+
   <footer>
-    &copy; 2025 Amarilla Management
+    &copy; 2025 Amarilla Management. All rights reserved.
   </footer>
 </body>
 </html>
