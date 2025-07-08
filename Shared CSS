@@ -5,13 +5,14 @@ body {
   padding: 0;
   line-height: 1.6;
   background-color: #f9f9f9;
+  color: #333;
 }
 
 header, footer {
-  background-color: #333;
+  background-color: #1E3A8A; /* deep blue */
   color: white;
   text-align: center;
-  padding: 1rem 0;
+  padding: 2rem 1rem;
 }
 
 nav a {
@@ -26,6 +27,14 @@ main {
   margin: auto;
 }
 
-h1 {
-  color: #333;
+h1, h2, h3 {
+  color: #222;
+}
+
+ul {
+  padding-left: 1.5rem;
+}
+
+strong {
+  font-weight: bold;
 }
