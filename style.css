@@ -21,7 +21,7 @@ header {
 }
 
 nav a {
-  color: var(--primary-blue);
+  color: white;
   text-decoration: none;
   margin-left: 1.5rem;
   font-weight: 500;
