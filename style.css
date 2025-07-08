@@ -1,0 +1,44 @@
+/* style.css */
+:root {
+  --primary-blue: #0044cc;
+  --light-blue: #e6f0ff;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: white;
+  color: #333;
+}
+
+header {
+  background-color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+}
+
+nav a {
+  color: var(--primary-blue);
+  text-decoration: none;
+  margin-left: 1.5rem;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 2rem;
+}
+
+footer {
+  background-color: var(--primary-blue);
+  color: white;
+  text-align: center;
+  padding: 1.5rem 1rem;
+  margin-top: 4rem;
+}
