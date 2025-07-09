@@ -4,6 +4,31 @@
   <meta charset="UTF-8" />
   <title>Payment</title>
   <link rel="stylesheet" href="style.css" />
+  <style>
+    .payment-button {
+      padding: 12px 24px;
+      margin: 10px 0;
+      background-color: #0072FF;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+    }
+
+    .payment-button:hover {
+      background-color: #005dd1;
+    }
+
+    .payment-logo {
+      height: 24px;
+      vertical-align: middle;
+    }
+  </style>
 </head>
 
 <body>
@@ -16,12 +41,26 @@
       <a href="payment.html">Payment</a>
     </nav>
   </header>
+
   <main>
     <p>Pay securely using Stripe or Revolut:</p>
-    <button onclick="window.location.href='https://buy.stripe.com/test_...'">Pay with Stripe</button>
+
+    <!-- Stripe payment button -->
+    <button class="payment-button" onclick="window.location.href='https://buy.stripe.com/test_...'">
+      Pay with Stripe
+    </button>
+
     <br><br>
-    <button onclick="window.location.href='https://revolut.me/your-link'">Pay with Revolut</button>
+
+    <!-- Revolut payment link with logo -->
+    <a href="https://revolut.me/your-link" target="_blank" rel="noopener noreferrer" class="payment-button">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/Revolut_logo_2021.svg"
+           alt="Revolut" class="payment-logo" />
+      Pay with Revolut
+    </a>
+
   </main>
+
   <footer>
     &copy; 2025 Amarilla Management
   </footer>
