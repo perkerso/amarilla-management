@@ -7,14 +7,17 @@
   <style>
     .payment-button {
       padding: 12px 24px;
-      margin: 10px 0;
+      margin: 10px 10px 10px 0;
       background-color: #0072FF;
       color: white;
       border: none;
       border-radius: 6px;
       font-size: 16px;
       cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
     }
+
     .payment-button:hover {
       background-color: #005dd1;
     }
@@ -36,17 +39,14 @@
     <p>Pay securely using Stripe or Revolut:</p>
 
     <!-- Stripe payment button -->
-    <button class="payment-button" onclick="window.location.href='https://buy.stripe.com/test_...'">
+    <a href="https://buy.stripe.com/dRmaEY9Vag8S4zi4Xy0kE00" target="_blank" rel="noopener noreferrer" class="payment-button">
       Pay with Stripe
-    </button>
-
-    <br><br>
+    </a>
 
     <!-- Revolut payment button -->
-    <button class="payment-button" onclick="window.open('https://checkout.revolut.com/pay/45b7c91f-f9ff-4646-9ba7-b787bbf0c51c', '_blank')">
+    <a href="https://checkout.revolut.com/pay/45b7c91f-f9ff-4646-9ba7-b787bbf0c51c" rel="noopener noreferrer" class="payment-button">
       Pay with Revolut
-    </button>
-
+    </a>
   </main>
 
   <footer>
