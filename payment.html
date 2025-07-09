@@ -14,19 +14,9 @@
       border-radius: 6px;
       font-size: 16px;
       cursor: pointer;
-      display: inline-flex;
-      align-items: center;
-      gap: 10px;
-      text-decoration: none;
     }
-
     .payment-button:hover {
       background-color: #005dd1;
-    }
-
-    .payment-logo {
-      height: 24px;
-      vertical-align: middle;
     }
   </style>
 </head>
@@ -52,12 +42,10 @@
 
     <br><br>
 
-    <!-- Revolut payment link with logo -->
-    <a href="https://revolut.me/your-link" target="_blank" rel="noopener noreferrer" class="payment-button">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/Revolut_logo_2021.svg"
-           alt="Revolut" class="payment-logo" />
+    <!-- Revolut payment button -->
+    <button class="payment-button" onclick="window.open('https://revolut.me/45b7c91f-f9ff-4646-9ba7-b787bbf0c51c', '_blank')">
       Pay with Revolut
-    </a>
+    </button>
 
   </main>
 
